@@ -10,6 +10,8 @@ This expects a flaschentaschen server running and connected to your LEDs. In my 
 sudo ./ft-server —led-cols=196 —led-rows=64 —led-parallel=2
 ```
 
+The openai-example expects a .env file with your key.
+
 ## Clients
 
 After making sure all necessary packages are installed (will need to work on polishing the experience up...).
