@@ -1,6 +1,6 @@
 # Glowgrid
 
-Little visualizations of a variety of info and art to display on my 196 x 128 LED panel that runs a flaschentaschen server on a Raspberry Pi.
+Little visualizations of a variety of info and art to display on my 196 x 128 LED panel that runs a [flaschentaschen](https://github.com/hzeller/flaschen-taschen) server on a Raspberry Pi.
 
 ## Usage
 
