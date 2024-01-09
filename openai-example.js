@@ -10,7 +10,7 @@ canvas.height = LED_HEIGHT = 128;
 
 const ftClient = require('./ft-client');
 const PORT = 1337;
-const HOSTNAME = '192.168.86.49';
+const HOSTNAME = '192.168.86.41';
 const ledClient = new ftClient(context, HOSTNAME, PORT, LED_WIDTH, LED_HEIGHT);
 
 const { Configuration, OpenAI } = require("openai");

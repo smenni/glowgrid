@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "canvas": "^2.11.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "luxon": "^3.4.4",
+    "node-fetch": "^3.3.2"
+  }
+}
