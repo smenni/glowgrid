@@ -17,6 +17,8 @@ let zrhWeather = '?';
 let bosWeather = '?';
 let sfoWeather = '?';
 
+const screenSaver = true;
+
 getWeather();
 
 function getWeather()  {
@@ -59,6 +61,12 @@ function drawTime() {
 
     // Get the times for Zurich, Boston and Zurich and Format them as HH:MM
     const localTime = DateTime.local().setZone('Europe/Zurich');
+
+    // create a screen saver that doesn't render anything if time is past a specific hour
+    if (screenSaver && (localTime.hour >= 19 || localTime.hour <= 8)) 
+        return;
+
+
     const localTimeStr = "ZUG " + localTime.toFormat('HH:mm') + "  " + zrhWeather;
 
     const bostonTime = DateTime.local().setZone('America/New_York');

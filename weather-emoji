@@ -21,7 +21,7 @@ class WeatherEmoji {
 			"09": { emoji: "☔️" }, // shower rain
 			"10": { emoji: "☂️" }, // rain
 			"11": { emoji: "☈" }, // thunderstorm
-			"13": { emoji: "❄️⛷" }, // snow
+			"13": { emoji: "❄️ ⛷" }, // snow
 			"50": { emoji: "👻" } // mist
 		};
 	}
